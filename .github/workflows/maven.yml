@@ -11,7 +11,7 @@ jobs:
         jdk_version: ['11', '17']
         machione: ["ubuntu-latest", 'macos-latest','windows-latest' ]
 
-  runs-on: ${{ matrix.machine }}
+    runs-on: ${{ matrix.machine }}
 
     steps:
     - uses: actions/checkout@v3
